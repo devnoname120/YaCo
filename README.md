@@ -79,7 +79,7 @@ Configure and build **YaTools**
 # export directories without quotes
 set IDA_DIR=C:\Program Files\IDA Pro 7.1
 set IDASDK_DIR=C:\idasdk71
-build> configure_2017.cmd
+build> configuref_2017.cmd
 out/x64> cmake --build . --config RelWithDebInfo
 out/x64> ctest . --output-on-failure -C RelWithDebInfo -j4
 ```
